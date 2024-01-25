@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.unorder {
+    width: 100%;    
+    background-image: url("./Pictures/wall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;               
+} 
+
+.box h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5%;
+    background-color: aliceblue;    
+} 
+
+.box p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: gray; 
+    margin-top: 20px;
+}
+
+.unorder1 {
+    height: 60vh;
+    background-color: rgb(227, 231, 235);
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.box1 img {
+    border-radius: 50%;
+}
+
+.box2 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: gray; 
+    margin-top: 30px;
+}
+
+.box2 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: gray; 
+    margin-top: 30px;
+    max-width: 500px;
+    min-width: 150px;
+}
+
+.peace3 {
+    height: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.peace4 {
+    text-align: center;
+}
+
+.peace4 p {
+    max-width: 400px;
+}
+
+.peace5 {
+    height: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.peace7 {
+    text-align: center;
+}
+
+.peace7 p {
+    max-width: 400px;
+}
+
+.unorder4 {
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    align-items: center;
+}
+
+.peace6 h2 {
+    font-size: 34px;
+    
+}
+
+.peace6 h3 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.peace6 p {
+    max-width: 800px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.peace6 button {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: forestgreen;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.peace6 button:hover {
+    background-color: darkgreen;
+}
+
+.border {
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+#order5 {
+    height: 10vh;
+    background-color: rgb(61, 241, 241);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#order5 a {
+    color: blue;
+    text-decoration: none;
+}
+
+@media (max-width: 680px){
+    .peace3 {
+        height: 35vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .peace4 h2 {
+        text-align: center;
+    }
+
+    .peace4 p {
+        text-align: center;
+    }
+
+    .peace5 {
+        height: 35vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .peace7 h2 {
+        text-align: center;
+    }
+
+    .peace7 p {
+        text-align: center;
+    }
+}
+
